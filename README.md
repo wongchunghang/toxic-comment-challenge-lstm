@@ -1,7 +1,9 @@
 ﻿# Objective
-•	The open source project aims to tackle a live problem about classification on negative online behavior (i.e. toxic comments) such as rude, disrespectful or otherwise likely to make someone leave a discussion.
-•	The challenge is originated from Kaggle, an online machine learning competition platform.
-•	The model is based on Implementation of Kaggler Larry Freeman(https://www.kaggle.com/larryfreeman/toxic-comments-code-for-alexander-s-9872-model)
+The open source project aims to tackle a live problem about classification on negative online behavior (i.e. toxic comments) such as rude, disrespectful or otherwise likely to make someone leave a discussion.
+
+The challenge is originated from Kaggle, an online machine learning competition platform.
+
+The model is based on Implementation of Kaggler Larry Freeman(https://www.kaggle.com/larryfreeman/toxic-comments-code-for-alexander-s-9872-model)
 
 # Architecture
 First layer: concatenated fasttext and glove twitter embeddings. Fasttext vector is used by itself if there is no glove vector but not the other way around. Words without word vectors are replaced with a word vector for a word "something". Also, I added additional value that was set to 1 if a word was written in all capital letters and 0 otherwise.
