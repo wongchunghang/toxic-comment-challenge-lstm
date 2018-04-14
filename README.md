@@ -30,3 +30,6 @@ I did a lot of work on fixing misspellings and I think it improved the score. I 
 Created a list of words that appear more often in toxic comments than in regular comments and words that appear more often in non-toxic comments. For every misspelled word I looked up if it has a word in the list with a small Levenshtein distance to it.
 Fixed some misspellings with TextBlob dictionary.
 Fixed misspellings by finding word vector neighborhoods. Fasttext tool can create vectors for out-of-dictionary words which is really nice. I trained my own fasttext vectors on Wikipedia comments corpus and used them to do this. I also used those vectors as embeddings but results were not as good as with regular fasttext vectors.
+
+# Quick Start
+Open the ipython notebook toxic_comment_9872_model.ipynb in colab (colab.research.google.com) and run in GPU runtime.
